@@ -848,7 +848,6 @@ public class HttpConnection implements Connection {
         /*
          * Matches XML content types (like text/xml, image/svg+xml, application/xhtml+xml;charset=UTF8, etc)
          */
-        // private static final Pattern xmlContentTypeRxp = Pattern.compile("(\\w+)/\\w*\\+?xml.*+");
         private static final Pattern xmlContentTypeRxp = Pattern.compile("(\\w+)/\\w*\\+?xml(?>.*)");
 
         /**
